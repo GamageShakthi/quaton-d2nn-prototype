@@ -23,7 +23,7 @@
 
 ## Overview
 
-**QuATON-D²NN** is a research-grade PyTorch framework for simulating, training, and benchmarking multi-layer **Diffractive Deep Neural Networks (D²NN)** under real-world manufacturing and hardware constraints:
+**QuATON-D²NN** is a PyTorch framework for simulating, training, and benchmarking multi-layer **Diffractive Deep Neural Networks (D²NN)** under real-world manufacturing and hardware constraints:
 
 - **Phase-level quantization** (1-bit to 8-bit SLM phase modulation) via Straight-Through Estimator (STE)
 - **Alignment jitter** (lateral misalignment between diffractive layers)
