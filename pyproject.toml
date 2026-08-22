@@ -1,0 +1,61 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quaton-d2nn"
+version = "0.1.0"
+description = "Quantization & Noise-Robust Diffractive Optical Neural Networks (D2NN) — QuATON"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Shakthi Gamage", email = "gamage.shakthi@example.com"},
+]
+requires-python = ">=3.9"
+keywords = [
+    "diffractive-optical-neural-network",
+    "quantization-aware-training",
+    "optical-computing",
+    "deep-learning",
+    "pytorch",
+    "wave-optics",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+dependencies = [
+    "torch>=2.0.0",
+    "torchvision>=0.15.0",
+    "numpy>=1.24.0",
+    "scipy>=1.10.0",
+    "matplotlib>=3.7.0",
+    "tqdm>=4.65.0",
+    "Pillow>=9.4.0",
+    "seaborn>=0.12.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.3.0",
+    "jupyter>=1.0.0",
+    "ipywidgets>=8.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/GamageShakthi/quaton-d2nn"
+Repository = "https://github.com/GamageShakthi/quaton-d2nn"
+Issues = "https://github.com/GamageShakthi/quaton-d2nn/issues"
+
+[tool.setuptools.packages.find]
+include = ["d2nn*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
