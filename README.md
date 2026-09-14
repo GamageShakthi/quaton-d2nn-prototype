@@ -67,17 +67,4 @@ d2nn/
 
 See `notebooks/quaton_d2nn_workflow.ipynb` for the full walkthrough.
 
-## References
 
-* Lin et al., *All-optical machine learning using diffractive deep neural networks*, Science, 2018.
-* Matsushima & Shimobaba, *Band-Limited Angular Spectrum Method*, Optics Express, 2009.
-* Bengio et al., *Estimating or Propagating Gradients Through Stochastic Neurons*, 2013.
-
-## Author
-
-**Shakthi Gamage**
-[GitHub](https://github.com/GamageShakthi)
-
-## License
-
-MIT
